@@ -7,11 +7,11 @@ print('Vamos Jogar Par ou Impar!')
 print('-=-' * 10)
 while True:
     jogador = int(input('Escolha um Numero: '))
-    comp = randint(0,11)
+    comp = randint(0,10)
     total = jogador + comp
-    choice = 'n'
-    while choice not in ('ip'):
-        choice = str(input('Escolha Par(p) ou Impar (i): ')).lower()
+    choice = ' '
+    while choice not in ('ipIP'):
+        choice = str(input('Escolha Par(p) ou Impar (i): ')).strip().lower()[0]
     if total % 2 == 0:
         numero = str('Par')
     else:
