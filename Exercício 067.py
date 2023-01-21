@@ -1,7 +1,7 @@
 ''' Faça um programa que mostre a tabuada de vários números, um de cada vez, para cada valor digitado pelo usuário.
 O programa será interrompido quando o número solicitado for negativo.'''
 while True:
-    n = int(input('Digite um numero para mostrar sua tabuado até 10: '))
+    n = int(input('Digite um numero para mostrar sua tabuada até 10: '))
     print('-'* 50)
     if n < 0:
         break
